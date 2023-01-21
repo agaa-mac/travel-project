@@ -107,7 +107,6 @@ section {
 .img-responsive {
   max-width: 100%;
   display: block;
-  aspect-ratio: 1/1;
 }
 .photo-map-grid {
   display: grid;
@@ -115,7 +114,6 @@ section {
 }
 .embed {
   width: 100%;
-  aspect-ratio: 1/1;
 }
 main h4 {
   font-size: 24px;
@@ -214,5 +212,27 @@ main h5 {
   }
   .card-paragraph {
     font-size: 12px;
+  }
+  section {
+    padding: 30px;
+  }
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 10px;
+  }
+
+  .footer-headers {
+    font-size: 14px;
+  }
+
+  .footer-paragraph {
+    font-size: 10px;
+  }
+  p {
+    margin: 0 auto;
   }
 } ;
