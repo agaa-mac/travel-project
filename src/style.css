@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f5f5f5;
+  background-color: rgb(245, 245, 245);
 }
 .container {
   max-width: 1400px;
@@ -98,4 +98,21 @@ section {
   color: #272044;
   font-weight: 700;
   font-size: 40px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  aspect-ratio: 1/1;
+}
+.photo-map-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
