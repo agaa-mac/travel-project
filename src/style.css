@@ -1,5 +1,10 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 header {
   background-image: linear-gradient(rgb(39, 32, 68, 0.6), rgb(39, 32, 68, 0.6)),
@@ -71,4 +76,26 @@ footer {
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 20px;
   padding: 70px;
+}
+.main-grid-first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  grid-gap: 40px;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+  background-color: white;
+}
+.main-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272044;
+}
+.main-header-first {
+  color: #272044;
+  font-weight: 700;
+  font-size: 40px;
 }
