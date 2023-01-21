@@ -7,7 +7,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 200px 0 450px;
+  padding: 200px 0 400px;
   max-width: 1400px;
   margin: 0 auto;
   color: white;
@@ -37,4 +37,38 @@ h2 {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
+}
+.footer-headers {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.footer-li a {
+  color: white;
+}
+.footer-paragraph {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+footer {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/Photo5.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+  padding: 70px;
 }
