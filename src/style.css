@@ -1,3 +1,40 @@
-h1 { 
-    color: blue
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: linear-gradient(rgb(39, 32, 68, 0.6), rgb(39, 32, 68, 0.6)),
+    url("../images/TowerBridge.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 280px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+h3 {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+h1 {
+  font-size: 96px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.header-learn-more-btn {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 32px;
+  background-color: white;
+  color: #272044;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
