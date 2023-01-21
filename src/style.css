@@ -3,11 +3,11 @@ body {
 }
 header {
   background-image: linear-gradient(rgb(39, 32, 68, 0.6), rgb(39, 32, 68, 0.6)),
-    url("../images/TowerBridge.JPG");
+    url("../images/TowerBridge3.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 280px 0;
+  padding: 200px 0 450px;
   max-width: 1400px;
   margin: 0 auto;
   color: white;
