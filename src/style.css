@@ -235,4 +235,8 @@ main h5 {
   p {
     margin: 0 auto;
   }
+  .header-learn-more-btn {
+    padding: 10px;
+    font-size: 8px;
+  }
 } ;
